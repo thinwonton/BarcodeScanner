@@ -359,12 +359,12 @@ public final class CaptureActivity extends Activity implements
 	@Override
 	public void surfaceChanged(SurfaceHolder holder, int format, int width,
 			int height) {
-		hasSurface = false;
+		/*hasSurface = false;*/
 	}
 
 	@Override
 	public void surfaceDestroyed(SurfaceHolder holder) {
-
+		hasSurface = false;
 	}
 
 	/**
